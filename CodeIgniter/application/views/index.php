@@ -12,7 +12,7 @@
         <form action="<?php echo base_url('index.php/ImportExport/import'); ?>" method="post" enctype="multipart/form-data">
             <input type="file" name="file" class="form-control">
             <center>
-                <button type="submit" class="btn btn-primary" style="margin: 25px 0px;" name="import"> Import Data </button>
+                <button type="submit" class="btn btn-primary" style="margin: 25px 0px;" name="import" value="import"> Import Data </button>
             </center>
         </form>
     </div>
